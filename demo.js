@@ -5,7 +5,7 @@ var express = require('express'),
 
 var options = {
   overrideMode: {
-    plugins: ['express-pouchdb-jwt'] // 'express-pouchdb-jwt' for real use
+    plugins: ['./'] // 'express-pouchdb-jwt' for real use
   }
 };
 var expressPouchDB = ExpressPouchDB(PouchDB, options);

@@ -5,7 +5,6 @@ var jwt = require('jsonwebtoken');
 
 module.exports = function(app) {
   app.use(function(req, res, next){
-    console.log("use app plugin ...")
     var value = app.couchConfig.get('httpd', 'authentication_handlers') || "";
     if (value.indexOf('jwt') === -1) {
       return next();

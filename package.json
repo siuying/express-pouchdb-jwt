@@ -1,6 +1,6 @@
 {
   "name": "express-pouchdb-jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Authenticate PouchDB using JSON Web Token",
   "main": "index.js",
   "scripts": {
@@ -21,12 +21,11 @@
   "author": "Francis Chong <francis@ignition.hk> (http://reality.hk/)",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3",
-    "express-pouchdb": "github:siuying/express-pouchdb#c9b1b28",
-    "pouchdb": "^5.2.0"
-  },
-  "peerDependencies": {
-    "express-pouchdb": "siuying/express-pouchdb#c9b1b28",
     "jsonwebtoken": "^5.5.4"
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "express-pouchdb": "github:siuying/express-pouchdb#a777885",
+    "pouchdb": "^5.2.0"
   }
 }
