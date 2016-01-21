@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+
+config.json
+_replicator
+_users
+pouch__*
+log.txt
